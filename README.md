@@ -44,7 +44,7 @@ The result of this module is given to the [motion planning module]() to plan the
 
 [![Human-Robot Collaborative assembly](./project_images/vid_cover.png)](https://www.youtube.com/watch?t=24s&v=t_-89-N_RgM)
 
-The details of this project are described in [this paper](https://ieeexplore.ieee.org/document/9044335). This module was integrated in my lab's robotics development environemt as a method for 3D pose estimation. 
+The details of this project are published in the journal of Transactions on Automation Science and Engineering. Here is a link to [the paper](https://ieeexplore.ieee.org/document/9044335).
 
 
 ## Contact
