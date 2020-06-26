@@ -42,11 +42,10 @@ As I mentioned above, the story starts with the human (to make the handover pose
 ## Practical result for next-generation manufacturing
 The result of this module is given to the [motion planning module]() to plan the robot motion that takes the object from the table to the handover pose. The knowledge of the object poses is calculated by [this]() vision module. The following is the result of fully assembling a cabinet with the described approach.
 
-
+[![Human-Robot Collaborative assembly](./project_images/vid_cover.png)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 The details of this project are described in [this paper](https://ieeexplore.ieee.org/document/9044335). This module was integrated in my lab's robotics development environemt as a method for 3D pose estimation. 
 
-![](https://www.youtube.com/watch?t=24s&v=t_-89-N_RgM)
 
 ## Contact
 If you are interested in the presented work/ideas, or if you have any questions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/mohraess). We can disuss about this project and other interesting projects.
