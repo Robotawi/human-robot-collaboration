@@ -1,5 +1,5 @@
 # Human-robot Collaborative Assembly
-This is the second half of my study on the Human-Robot collaborative assembly framework. The first one is described here without deep technicalities. It describes how the robot capabilities of manipulating heavy objects is enhanced through constraint manipulation with relaxation calculated based on every manipulated object. 
+This is the second half of my study on the Human-Robot collaborative assembly framework. The first half is described [here](https://github.com/Robotawi/constrained_motion_planning) without deep technicalities. It developed a method to enhance the robot capabilities of manipulating heavy objects through constraint manipulation with an object-specific relaxation technique. 
 
 ## The big picture
 The aim of this study to enable human-robot collaboration to make assemly tasks less physically requiring for the humans. The robot is expected to manipulate heavy objects with an improved capability, while the human will focus on the fine tasks like screwing, and aligning the assembly parts. For example, the human and his robot assistant will assemble the following cabinet together.
