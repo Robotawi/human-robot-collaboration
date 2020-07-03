@@ -2,27 +2,31 @@
 This is the second half of my study on the Human-Robot collaborative assembly framework. The first one is described here without deep technicalities. It describes how the robot capabilities of manipulating heavy objects is enhanced through constraint manipulation with relaxation calculated based on every manipulated object. 
 
 ## The big picture
+The aim of this study to enable human-robot collaboration to make assemly tasks less physically requiring for the humans. The robot is expected to manipulate heavy objects with an improved capability, while the human will focus on the fine tasks like screwing, and aligning the assembly parts. For example, the human and his robot assistant will assemble the following cabinet together.
+<img src=./project_images/cabinet.png>
+
+## Handovers planning
 The second module presented here relates to how to plan robot-to-human handover poses that are both comfortable for the human, and reachable for the robot. The process happens in the order described by the next figure, and the details come next.
 <img src=./project_images/goalselectionsequence2.png>
 
-## Handover planning
-The pecific goal here is take every single workpiece (board in the cabinet to be assembled) and plan a handover pose for it.
+## The planning steps:
+The pecific goal of every sub task in the assembly process is take every single workpiece (board in the above cabinet) and plan a handover pose for it.
 
 
-### The first step
+### Step (1)
 The story of the planning starts with knowing how the final assembly is like, and hence the pose of every work piece in this assembly. Let’s take the side board, highlighted in yellow in the above figure as an example. 
 
-### The second step
+### Step (2)
 Multiple samples of the potential handover poses are defined and distributed with respect to the assembly pose of the target workpiece. The samples are shown in grey in the above figure. 
 
-### The third step
+### Step (3)
 The samples are checked for being both reachable, and comfortable to the human. The reachability is decided using inverse kinematics, and the comfortableness is estimated using the inverse of the condition number of the human arm (similar in principle to the manipulability defined by Yoshikawa sensei). The set of reachable, comfortable poses are shown in orange. 
 
 
-### The fourth step
+### Step (4)
 The set of the human reachable, comfortable poses are then tested for being reachable to the robot. In deed, a check for shared grasps for dual-arm manipulation is carried out here (have a look below for a bit more of details). The subset of poses that satisifies are both human comfortable and robot reachable. This subset is shown in dark orange.
 
-### The fifth step
+### Step (5)
 The satisfactory poses from the prevous step are ordered according to how far every they are from the target assembly pose. The nearest comfortable pose is selected as the handover pose. The selected pose is shown in red with the approximated human grasp and the exact robot grasp.
 
 ## Would like some interesting details?
