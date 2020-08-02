@@ -6,7 +6,7 @@ The aim of the human-robot collaborative assembly framework is to make assembly 
 <img src=./project_images/cabinet.png>
 
 ## Handovers planning
-This second part develops a module to plan robot-to-human handover poses that are both comfortable for the human, and reachable for the robot. The process happens in the flow described by the next figure and its implementation is in the file [sample_step4_find_handover_pose.py](./sample_step4_find_handover_pose.py).
+This second part develops a module to plan robot-to-human handover poses that are both comfortable for the human, and reachable for the robot. The process happens in the flow described by the next figure and its implementation is in the file [sample_step4_calculate_handover_pose.py](./sample_step4_calculate_handover_pose.py).
 <img src=./project_images/goalselectionsequence2.png>
 
 ## The planning steps:
